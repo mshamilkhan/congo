@@ -1,0 +1,18 @@
+.btn{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid var(--mainBlue);
+    background-color: var(--blue4);
+    border-radius: 10px;
+    /* margin-left: -1rem; */
+    color: var(--blue1);
+    transition: all 0.5s ease;
+
+    
+  }
+  .btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid var(--blue4);
+    color: var(--white);
+  }
