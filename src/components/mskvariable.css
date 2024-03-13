@@ -9,3 +9,9 @@
     --black:#2C2C2C;
     --blackpara:#555555;
 }
+h1,h2{
+    color: var(--black);
+}
+p{
+    color: var(--blackpara);
+}

@@ -1,0 +1,60 @@
+@import "../mskvariable.css";
+
+.parentdiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.parentdiv .imgdiv{
+    width: 45%;
+    overflow: hidden;
+padding: 2rem;
+}
+.parentdiv .imgdiv img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.righttextbox,.lefttextbox{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    /* align-items: center; */
+}
+.parentdiv h1{
+    font-size: 5rem;
+    margin: 0 0 -0.5rem 2rem;
+}
+.parentdiv p{
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.bluehead {
+    color: var(--blue3);
+}
+
+@media(max-width:1207px){
+    .parentdiv .imgdiv{
+        width: 100%;
+        align-items: center;
+    }
+    .righttextbox,.lefttextbox{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .parentdiv p{
+        margin: 1rem;
+    }
+}
+
+@media (max-width:550px){
+    .parentdiv h1{
+        font-size: 3rem;
+    }
+}

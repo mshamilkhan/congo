@@ -1,0 +1,38 @@
+.section2{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.cardbox{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 h1, p{
+    margin: 1rem;
+}
+@media (max-width:  600px){
+    .section2{
+        margin-top: 5rem;
+    }
+   
+}
+.section3{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    text-align: center; */
+}
+.section3 h1, p{
+    margin: 1rem;
+}
+@media (max-width:  600px){
+    .section3{
+        margin-top: 5rem;
+    }
+   
+}

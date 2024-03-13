@@ -1,0 +1,34 @@
+@import "../mskvariable.css";
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30rem;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.imagediv img{
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+.card h2{
+    margin-bottom: 1rem;
+}
+.cardmargin{
+    margin: 4rem;
+}
+@media (max-width:  600px){
+    
+    .cardmargin{
+        margin: 1rem;
+    margin-bottom: 5rem;
+    }
+}
